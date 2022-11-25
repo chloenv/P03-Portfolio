@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600;1,700&display=swap');
+
+html {
+  background-color: #F6F6F6;
+}
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 550;
+  letter-spacing: 1px;
+  color: #2C4154;
+}
+
+h2 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #2C4154;
+}
+
+h3 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  color: #2C4154;
+}
+
+h4 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  color: #2C4154;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #2C4154;
+}
+
+p {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  width: 80%;
+  color: #2C4154;
+}
+
+header {
+  padding: 30px;
+  text-align: left;
+  background-color: #C7E1D4;
+}
+
+.main-elements {
+  padding-left: 30px;
+}
+
+.elements {
+  padding-bottom: 20px;
+}
+
+.elements h2 {
+  font-weight: 550;
+  font-style: italic;
+}
+
+.numbers {
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #97C4AD;
+}
+
+.intext-link a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #2C4154;
+}
+
+.intext-link a:hover, .intext-link a:focus {
+  color: #EAB0A2;
+  transition-duration: 0.5s;
+}
+
+.button {
+  background-color: #97C4AD;
+  text-align: center;
+  border-radius: 4px;
+  padding: 16px 30px;
+  display: inline-block;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #2C4154;
+}
+
+.button:hover {
+  background-color: #C7E1D4;
+}
+
+.pink-line {
+  background-color: #EAB0A2;
+  height: 1.5px;
+  border: none;
+  width: 95%;
+  margin-top: 30px;
+}
+
+#sample-h2 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  color: #2C4154;
+}
+
+.nav-bar {
+  overflow: hidden;
+}
+
+.nav-bar a {
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #2C4154;
+  text-align: center;
+  padding-right: 12px;
+  line-height: 25px;
+}
+
+.nav-bar a:hover {
+  color: #EAB0A2;
+  transition-duration: 0.5s;
+}
+
+.nav-bar a.active {
+  color: #EAB0A2;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-bar a {
+    float: none;
+    display: block;
+    text-align: left;
+    justify-content: center;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
