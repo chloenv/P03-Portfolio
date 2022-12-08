@@ -202,12 +202,46 @@ body {
   float: left;
 }
 
-.about-img img {
-  max-width: 100%;
-  height: auto;
+.about-img {
+  position:relative;
+  height:300px;
+  width:450px;
   margin-left: 2rem;
   margin-top: 5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about-img img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+
+@keyframes abtFadeInOut {
+  0% {
+    opacity:1;
+  }
+  45% {
+    opacity:1;
+  }
+  55% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+.about-img img.top {
+  animation-name: abtFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-direction: alternate;
 }
 
 .about-text p {
@@ -415,9 +449,9 @@ hr {
 }
 
 .top-header {
-    padding: 30px;
-    text-align: left;
-    background-color: #C7E1D4;
+  padding: 30px;
+  text-align: left;
+  background-color: #C7E1D4;
 }
 
 .top-header h5 {
