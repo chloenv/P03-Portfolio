@@ -459,8 +459,14 @@ hr {
   color: #2C4154;
 }
 
-.main-elements {
-  padding-left: 30px;
+.main-elements h1 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #2C4154;
+
+  padding-left: 2rem;
 }
 
 .elements {
@@ -470,12 +476,25 @@ hr {
 .elements h1 {
   font-weight: 550;
   color: #2C4154;
+  padding-left: 2rem;
 }
 
 .elements h2 {
-  font-weight: 550;
+  font-weight: 400;
   font-style: italic;
   color: #2C4154;
+  padding-left: 2rem;
+}
+
+.sample-p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  font-size: 14px;
+  width: 70%;
+  color: #2C4154;
+  padding-left: 2rem;
 }
 
 .numbers {
@@ -484,6 +503,7 @@ hr {
   font-weight: 600;
   letter-spacing: 1px;
   color: #97C4AD;
+  padding-left: 2rem;
 }
 
 .pink-line {
@@ -494,6 +514,62 @@ hr {
   margin-top: 30px;
 }
 
-.sg-hr hr{
+#sg-hr {
   border-top: 0.75px solid #2C4154;
+  margin-top: 2rem;
+}
+
+.text-link a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  text-decoration: none;
+  font-size: 14px;
+  width: 100%;
+  color: #2C4154;
+  padding-left: 2rem;
+}
+
+.text-link a:hover {
+  color: #EFC5C7;
+}
+
+#sample-h1 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #2C4154;
+}
+
+#sample-h2 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #2C4154;
+}
+
+#sample-h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #2C4154;
+  padding-left: 2rem;
+}
+
+#sample-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #73BFA2;
+  padding-left: 2rem;
+}
+
+.elements img {
+  padding-left: 2rem;
 }
