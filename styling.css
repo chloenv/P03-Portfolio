@@ -354,6 +354,12 @@ body {
   padding: 2rem;
 }
 
+.proj-img {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1.5rem;
+}
+
 footer {
   display: flex;
   flex-direction: row;
