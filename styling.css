@@ -424,3 +424,76 @@ hr {
   border-top: 0.75px solid #2C4154;
   margin-top: 10rem;
 }
+
+.top-header {
+    padding: 30px;
+    text-align: left;
+    background-color: #C7E1D4;
+}
+
+.top-header h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #2C4154;
+}
+
+.top-header h1 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #2C4154;
+}
+
+.top-header p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  font-size: 14px;
+  width: 100%;
+  color: #2C4154;
+}
+
+.main-elements {
+  padding-left: 30px;
+}
+
+.elements {
+  padding-bottom: 20px;
+}
+
+.elements h1 {
+  font-weight: 550;
+  color: #2C4154;
+}
+
+.elements h2 {
+  font-weight: 550;
+  font-style: italic;
+  color: #2C4154;
+}
+
+.numbers {
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #97C4AD;
+}
+
+.pink-line {
+  background-color: #EAB0A2;
+  height: 1.5px;
+  border: none;
+  width: 95%;
+  margin-top: 30px;
+}
+
+.sg-hr hr{
+  border-top: 0.75px solid #2C4154;
+}

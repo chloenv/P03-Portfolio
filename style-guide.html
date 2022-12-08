@@ -7,13 +7,15 @@
   <title>Style Guide for Portfolio</title>
 
   <!-- Connect .css style guide file to html -->
-  <link href="main.css" rel="stylesheet">
+  <link href="styling.css" rel="stylesheet">
 </head>
 
 <header>
+<div class="top-header">
   <h5>IAT 339 P03 PORTFOLIO</h5>
   <h1>Style Guide</h1>
   <p>A design guide that brings my portfolio to life.</p>
+</div>
 </header>
 
 <body>
@@ -22,16 +24,9 @@
     <h1>Interactive Elements</h1>
 
     <div class="elements">
-      <h2>In-text link</h2>
-      <div class="intext-link">
-        <a href="https://www.google.com">ABOUT</a>
-      </div>
-    </div>
-
-    <div class="elements">
-      <h2>Button</h2>
-      <div class="button">
-        <a href="https://www.google.com">LEARN MORE</a>
+      <h2>In-text link & Button </h2>
+      <div class="text-link">
+        <a href="mailto:chloevels@gmail.com">EMAIL</a>
       </div>
     </div>
   </div>
@@ -68,38 +63,42 @@
         <h2>Navigation Bar</h2>
         <nav>
           <div class="nav-bar">
-            <a href="pages/Product-Listing.html">HOME</a>
-            <a href="pages/About.html">ABOUT</a>
-            <a href="pages/Quiz.html">WORKS</a>
-            <a href="pages/Contact.html">CONTACT</a>
+            <a class="logo" href="../index.html">Chloe Velasquez</a>
+            <div class="nav-bar-right">
+              <a href="#about-page">ABOUT</a>
+              <a href="#proj-page">PROJECTS</a>
+              <a href="#cont-page">CONTACT</a>
+            </div>
           </div>
         </nav>
+
       </div>
 
       <div class="elements">
         <h2>Footer</h2>
+        <hr class="sg-hr">
         <footer>
-          <div class="footer-1">
-            <h2 class="footer-header">Contact Me</h2>
-            <div class="intext-link2">
-              <a href="https://www.google.com">INSTAGRAM</a>
-              <a href="https://www.google.com">EMAIL</a>
-              <a href="https://www.google.com">LINKEDIN</a>
-            </div>
+          <div class="footer-p1">
+            <p class="page-quote">Let's</p>
+            <p class="page-quote-1">Connect</p>
+            <p class="page-quote-3">.</p>
           </div>
-
-          <div class="footer-2">
-            <h2 class="footer-header">Resources</h2>
-            <div class="intext-link2">
-              <a href="https://www.google.com">RESUME</a>
-              <a href="https://www.google.com">STYLE GUIDE</a>
-            </div>
+          <div class="footer-p2">
+            <h4>CONTACT</h4>
+            <a href="https://www.instagram.com/chluoe/">Instagram</a>
+            <a href="mailto:chloevels@gmail.com">Email</a>
           </div>
-
-          <div class="footer-3">
-            <h2 class="footer-header">Designed by Chloe Velasquez, 2022. </h2>
+          <div class="footer-p3">
+            <h4>RESOURCES</h4>
+            <a href="../style-guide.html">Style Guide</a>
+            <a href="">Citations</a>
+            <a href="https://github.com/chloenv/P03-Portfolio">Github</a>
+          </div>
+          <div class="footer-p4">
+            <p>Designed by Chloe Velasquez, 2022</p>
           </div>
         </footer>
+
       </div>
       </div>
 
